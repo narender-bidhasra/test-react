@@ -1,0 +1,104 @@
+body{
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.cus-menus {
+    width: 100%;
+    display: flex;
+    background: #0099a9;
+    padding: 20px 10px;
+    ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        li{
+            margin: 0 15px;
+            a{
+                color: #fff !important;
+                text-decoration: none;
+                font-size: 14px;
+                text-transform: uppercase;
+                padding: 4px;
+                font-weight: 600;
+                cursor: pointer;
+                &:hover, &:focus, &.active-tab{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.content-main{
+    width: 100%;
+    display: inline-block;
+    padding: 50px 0;
+    h1{
+        width: 100%;
+        display: inline-block;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    .cus-grid-rep {
+        width: 100%;
+        display: inline-block;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 8px 4px #eee;
+        margin-bottom: 24px;
+        h3{
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        h5{
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        h4{
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-height: 60px;
+        }
+        P{
+            margin: 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-height: 75px;
+        }
+        .photo-img{
+            width: 100%;
+            display: inline-block;
+            margin-bottom: 20px;
+            img{
+                width: 100%;
+                display: inline-block;
+            }
+        }
+    }
+}
+
