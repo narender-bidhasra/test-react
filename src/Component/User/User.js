@@ -32,9 +32,11 @@ function User(props) {
                 {
                     user.map(userData => {
                         return(
-                            <Col xs={12}>
-                                <h4 onClick={() => SingleUser(userData)}>{userData.name}</h4>
-                                <p>{userData.email}</p>
+                            <Col lg={4} md={4} sm={12} xs={12}>
+                                <div className="cus-grid-rep cus-user-grid">
+                                    <h3 className="pointer" onClick={() => SingleUser(userData)}>{userData.name}</h3>
+                                    <p>{userData.email}</p>
+                                </div>
                             </Col>
                         )
                     })
